@@ -5,9 +5,9 @@ const querystring = require('querystring');
 const app = express();
 const port = 3000;
 
-const clientId = 'a203748daa2e406da7fd858a4ec0198c';
-const clientSecret = '168bc6420d56489395548608e088eb15';
-const redirectUri = 'http://10.128.127.75:3000/callback';
+const clientId = '';
+const clientSecret = '';
+const redirectUri = 'http://localip:3000/callback';
 
 // Step 1: Redirect the user to Spotify’s authorization page
 app.get('/login', (req, res) => {
@@ -62,5 +62,5 @@ app.get('/', (req, res) => {
 
 // Start the server
 app.listen(port, () => {
-    console.log(`Server running at http://localhost:${port}`);
+    console.log(`Server running at http://localip:${port}`);
 });
