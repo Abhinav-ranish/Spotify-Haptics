@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD05B1772CD9100A00647CA8 /* SpotifyiOS in Frameworks */ = {isa = PBXBuildFile; productRef = AD05B1762CD9100A00647CA8 /* SpotifyiOS */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD05B1532CD90C8B00647CA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD05B13A2CD90C8800647CA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD05B1412CD90C8800647CA8;
+			remoteInfo = hapticspotify;
+		};
+		AD05B15D2CD90C8B00647CA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD05B13A2CD90C8800647CA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD05B1412CD90C8800647CA8;
+			remoteInfo = hapticspotify;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD05B1422CD90C8800647CA8 /* hapticspotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hapticspotify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD05B1522CD90C8B00647CA8 /* hapticspotifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hapticspotifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD05B15C2CD90C8B00647CA8 /* hapticspotifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hapticspotifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AD05B1442CD90C8800647CA8 /* hapticspotify */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = hapticspotify;
+			sourceTree = "<group>";
+		};
+		AD05B1552CD90C8B00647CA8 /* hapticspotifyTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = hapticspotifyTests;
+			sourceTree = "<group>";
+		};
+		AD05B15F2CD90C8B00647CA8 /* hapticspotifyUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = hapticspotifyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD05B13F2CD90C8800647CA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD05B1772CD9100A00647CA8 /* SpotifyiOS in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD05B14F2CD90C8B00647CA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD05B1592CD90C8B00647CA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD05B1392CD90C8800647CA8 = {
+			isa = PBXGroup;
+			children = (
+				AD05B1442CD90C8800647CA8 /* hapticspotify */,
+				AD05B1552CD90C8B00647CA8 /* hapticspotifyTests */,
+				AD05B15F2CD90C8B00647CA8 /* hapticspotifyUITests */,
+				AD05B1752CD9100A00647CA8 /* Frameworks */,
+				AD05B1432CD90C8800647CA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD05B1432CD90C8800647CA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD05B1422CD90C8800647CA8 /* hapticspotify.app */,
+				AD05B1522CD90C8B00647CA8 /* hapticspotifyTests.xctest */,
+				AD05B15C2CD90C8B00647CA8 /* hapticspotifyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD05B1752CD9100A00647CA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD05B1412CD90C8800647CA8 /* hapticspotify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD05B1662CD90C8B00647CA8 /* Build configuration list for PBXNativeTarget "hapticspotify" */;
+			buildPhases = (
+				AD05B13E2CD90C8800647CA8 /* Sources */,
+				AD05B13F2CD90C8800647CA8 /* Frameworks */,
+				AD05B1402CD90C8800647CA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AD05B1442CD90C8800647CA8 /* hapticspotify */,
+			);
+			name = hapticspotify;
+			packageProductDependencies = (
+				AD05B1762CD9100A00647CA8 /* SpotifyiOS */,
+			);
+			productName = hapticspotify;
+			productReference = AD05B1422CD90C8800647CA8 /* hapticspotify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD05B1512CD90C8B00647CA8 /* hapticspotifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD05B1692CD90C8B00647CA8 /* Build configuration list for PBXNativeTarget "hapticspotifyTests" */;
+			buildPhases = (
+				AD05B14E2CD90C8B00647CA8 /* Sources */,
+				AD05B14F2CD90C8B00647CA8 /* Frameworks */,
+				AD05B1502CD90C8B00647CA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD05B1542CD90C8B00647CA8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AD05B1552CD90C8B00647CA8 /* hapticspotifyTests */,
+			);
+			name = hapticspotifyTests;
+			packageProductDependencies = (
+			);
+			productName = hapticspotifyTests;
+			productReference = AD05B1522CD90C8B00647CA8 /* hapticspotifyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD05B15B2CD90C8B00647CA8 /* hapticspotifyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD05B16C2CD90C8B00647CA8 /* Build configuration list for PBXNativeTarget "hapticspotifyUITests" */;
+			buildPhases = (
+				AD05B1582CD90C8B00647CA8 /* Sources */,
+				AD05B1592CD90C8B00647CA8 /* Frameworks */,
+				AD05B15A2CD90C8B00647CA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD05B15E2CD90C8B00647CA8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AD05B15F2CD90C8B00647CA8 /* hapticspotifyUITests */,
+			);
+			name = hapticspotifyUITests;
+			packageProductDependencies = (
+			);
+			productName = hapticspotifyUITests;
+			productReference = AD05B15C2CD90C8B00647CA8 /* hapticspotifyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD05B13A2CD90C8800647CA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					AD05B1412CD90C8800647CA8 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					AD05B1512CD90C8B00647CA8 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = AD05B1412CD90C8800647CA8;
+					};
+					AD05B15B2CD90C8B00647CA8 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = AD05B1412CD90C8800647CA8;
+					};
+				};
+			};
+			buildConfigurationList = AD05B13D2CD90C8800647CA8 /* Build configuration list for PBXProject "hapticspotify" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD05B1392CD90C8800647CA8;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				AD05B16F2CD90CF200647CA8 /* XCRemoteSwiftPackageReference "ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AD05B1432CD90C8800647CA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD05B1412CD90C8800647CA8 /* hapticspotify */,
+				AD05B1512CD90C8B00647CA8 /* hapticspotifyTests */,
+				AD05B15B2CD90C8B00647CA8 /* hapticspotifyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD05B1402CD90C8800647CA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD05B1502CD90C8B00647CA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD05B15A2CD90C8B00647CA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD05B13E2CD90C8800647CA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD05B14E2CD90C8B00647CA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD05B1582CD90C8B00647CA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD05B1542CD90C8B00647CA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD05B1412CD90C8800647CA8 /* hapticspotify */;
+			targetProxy = AD05B1532CD90C8B00647CA8 /* PBXContainerItemProxy */;
+		};
+		AD05B15E2CD90C8B00647CA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD05B1412CD90C8800647CA8 /* hapticspotify */;
+			targetProxy = AD05B15D2CD90C8B00647CA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AD05B1642CD90C8B00647CA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD05B1652CD90C8B00647CA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD05B1672CD90C8B00647CA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hapticspotify/Preview Content\"";
+				DEVELOPMENT_TEAM = X4F3U29P54;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = hapticspotify/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hapticspotify.hapticspotify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD05B1682CD90C8B00647CA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hapticspotify/Preview Content\"";
+				DEVELOPMENT_TEAM = X4F3U29P54;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = hapticspotify/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hapticspotify.hapticspotify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD05B16A2CD90C8B00647CA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hapticspotify.hapticspotifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hapticspotify.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hapticspotify";
+			};
+			name = Debug;
+		};
+		AD05B16B2CD90C8B00647CA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hapticspotify.hapticspotifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hapticspotify.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hapticspotify";
+			};
+			name = Release;
+		};
+		AD05B16D2CD90C8B00647CA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hapticspotify.hapticspotifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hapticspotify;
+			};
+			name = Debug;
+		};
+		AD05B16E2CD90C8B00647CA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hapticspotify.hapticspotifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hapticspotify;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD05B13D2CD90C8800647CA8 /* Build configuration list for PBXProject "hapticspotify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD05B1642CD90C8B00647CA8 /* Debug */,
+				AD05B1652CD90C8B00647CA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD05B1662CD90C8B00647CA8 /* Build configuration list for PBXNativeTarget "hapticspotify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD05B1672CD90C8B00647CA8 /* Debug */,
+				AD05B1682CD90C8B00647CA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD05B1692CD90C8B00647CA8 /* Build configuration list for PBXNativeTarget "hapticspotifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD05B16A2CD90C8B00647CA8 /* Debug */,
+				AD05B16B2CD90C8B00647CA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD05B16C2CD90C8B00647CA8 /* Build configuration list for PBXNativeTarget "hapticspotifyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD05B16D2CD90C8B00647CA8 /* Debug */,
+				AD05B16E2CD90C8B00647CA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AD05B16F2CD90CF200647CA8 /* XCRemoteSwiftPackageReference "ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/spotify/ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AD05B1762CD9100A00647CA8 /* SpotifyiOS */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AD05B16F2CD90CF200647CA8 /* XCRemoteSwiftPackageReference "ios-sdk" */;
+			productName = SpotifyiOS;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AD05B13A2CD90C8800647CA8 /* Project object */;
+}
